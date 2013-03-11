@@ -10,6 +10,7 @@ __Version:__ 0.0
 ---
 
 ##todo 
+	- Add a copy of the java external source
 	- Sound Synthesizing Engine
 	- Wind Synthesizing Engine
 	- Precipitation Synthesizing Engine
