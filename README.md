@@ -24,6 +24,34 @@ __Version:__ 0.0
 	
 --- 
 
+##Outline
+
+	- Base Synth
+		- temp_f
+		- feelslike_f
+		- visibility_mi
+		- UV
+		- pressure_in
+		- pressure_trend
+		- dewpoint_f
+		- relative_humidity
+	
+	- Wind Synth
+		- wind_degrees
+		- wind_mph
+		- wind_gust_mph 
+	
+	- Precipitation Synth
+		- temp_f
+		- precip_1hr_in
+		- precip_today_in
+		
+	- MoodInterpreter
+		- Upset
+		- Content
+
+---
+
 ###Legend
 
 __bold__ means that it is a definition of my own. 
@@ -109,16 +137,15 @@ My first choice was to decide what notes we're going to be chosen based on the d
 
 For Version 1 is only going to have two moods __Upset__ and __Content__. __Upset__ will be chosen for weather data that is categorized as Extreme, otherwise the modd will be set to __Content__. For the keys that these moods will represent I decided to decide based on the keys I like to use in my own compositions. I chose *C# Minor* as the key to represent __Upset__ weather and *D major* as the key to represent __Content__ weather. 
 
-###Defining the Sound: 
+###Defining the Melody: 
 
-Because the sound is representing something earthly I wanted the tones to be as *organic* as possible.  
+I decided the best way to determine when notes should change is to look at the variables and everytime something changes after retrieving the data from the server the note will change. I designed a custom algorithm to choose which notes will be triggered.
 
 
 
 ##Resources
 
 1. [Temperature (Wikipedia)](http://en.wikipedia.org/wiki/Temperature)
-2. 
 
 ---
 
