@@ -14,7 +14,6 @@ __Version:__ 0.0
 ##todo 
 	- Add a copy of the java external source
 	- Begin Building: 
-	    - WeatherDataInterpreter
 	    - BaseSynth
 	- Implement Inputs
 	    - PrecipSynth
