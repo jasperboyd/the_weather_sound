@@ -1,7 +1,7 @@
 the_weather_sound
 =================
 
-###Jasper Boyd
+#####[Jasper Boyd](jasperboyd.com)
 
 __Summary:__ A computer music project that converts real time weather data into soundscapes. 
 
@@ -12,16 +12,19 @@ __Version:__ 0.0
 ---
 
 ##todo 
-	- Flush out approach
 	- Add a copy of the java external source
-	- Determine mood from input data
-	- Sound Synthesizing Engine
-	- Wind Synthesizing Engine
-	- Precipitation Synthesizing Engine
+	- Begin Building: 
+	    - WeatherDataInterpreter
+	    - BaseSynth
+	- Implement Inputs
+	    - PrecipSynth
+	    - WindSynth
+	    - BaseSynth
 	
-##bugs
-	-
-	
+##Features for Later Versions
+    - Zip Code feature
+        - Urban/Suburban/Rural/Wilderness Settings
+    
 --- 
 
 ##Outline
