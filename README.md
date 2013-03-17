@@ -29,29 +29,36 @@ __Version:__ 0.0
 
 ##Outline
 
-	- Base Synth
+###BaseSynth
+    - Input: 
 		- temp_f
 		- feelslike_f
 		- visibility_mi
 		- UV
 		- pressure_in
 		- pressure_trend
-		- dewpoint_f
+	    - dewpoint_f
 		- relative_humidity
 	
-	- Wind Synth
-		- wind_degrees
+###WindSynth
+	 - Input: 
+	    - wind_degrees
 		- wind_mph
 		- wind_gust_mph 
 	
-	- Precipitation Synth
+###PrecipSynth
+    - Input: 
 		- temp_f
 		- precip_1hr_in
 		- precip_today_in
 		
-	- MoodInterpreter
-		- Upset
-		- Content
+###WeatherDataInterpreter
+	    - Input: 
+	        - temp_f
+	        - wind_gust_mph
+	        - precip_today_in 
+	    - Output: 
+		    - Float representing the ratio: Upset/Content
 
 ---
 

@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 224.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 85.0, 104.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,19 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "gets data on a bang",
+					"comment" : "Bang to Output",
+					"id" : "obj-15",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 68.0, 42.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Helvetica Light",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -46,18 +59,19 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-20",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.872375, 75.809982, 150.0, 66.0 ],
-					"text" : "need to setup info outlets and disable the print statement to prevent spamming the max window"
+					"patching_rect" : [ 323.872375, 75.809982, 150.0, 54.0 ],
+					"text" : "disable the print statement to prevent spamming the max window"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in inches",
+					"comment" : "precip today",
 					"id" : "obj-19",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -68,7 +82,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in inches",
+					"comment" : "precip 1 hour",
 					"id" : "obj-18",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -79,7 +94,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in %",
+					"comment" : "relative humidity",
 					"id" : "obj-17",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -90,29 +106,32 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in f",
+					"comment" : "dewpoint",
 					"id" : "obj-16",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 380.0, 294.0, 25.0, 25.0 ]
+					"patching_rect" : [ 380.0, 295.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "+ or - ",
+					"comment" : "preassure trend",
 					"id" : "obj-14",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.0, 294.0, 25.0, 25.0 ]
+					"patching_rect" : [ 355.0, 295.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in farenheit",
+					"comment" : "preassure ",
 					"id" : "obj-13",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -123,7 +142,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in something",
+					"comment" : "uv",
 					"id" : "obj-12",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -134,7 +154,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in miles",
+					"comment" : "visibility",
 					"id" : "obj-11",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -145,7 +166,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in mph",
+					"comment" : "wind gust speed",
 					"id" : "obj-10",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -156,7 +178,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in mph",
+					"comment" : "wind speed",
 					"id" : "obj-9",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -167,7 +190,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in degrees",
+					"comment" : "wind direction",
 					"id" : "obj-6",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -178,7 +202,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in degrees farenheit",
+					"comment" : "Windchill ",
 					"id" : "obj-4",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -189,7 +214,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "In farenheit",
+					"comment" : "Feelslike Temp. ",
 					"id" : "obj-3",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -200,7 +226,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "in farienheit",
+					"comment" : "temperature ",
 					"id" : "obj-1",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -263,6 +290,16 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 77.5, 150.0, 59.5, 150.0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
