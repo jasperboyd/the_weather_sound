@@ -13,6 +13,8 @@ __Version:__ 0.0
 
 ##todo 
 	- Add a copy of the java external source
+	- Finish Weather Data Interpreter
+	- Begin Building MelodyGenerator
 	- Implement Inputs
 	    - PrecipSynth
 	    - WindSynth
@@ -25,6 +27,27 @@ __Version:__ 0.0
 --- 
 
 ##Outline
+
+###GetWeather
+    - Input:
+        - Bang: 
+    - Output: 
+        - Lots of things (Fill this in!)
+
+###WeatherDataInterpreter
+	- Input: 
+	    - temp_f
+	    - wind_gust_mph
+	    - precip_today_in 
+	- Output: 
+	    - Float representing the ratio: Upset/Content
+	    
+###Melody Generator
+    - Input: 
+        -
+    - Output: 
+        - Midi Values
+        - Velocity
 
 ###BaseSynth
     - Input: 
@@ -49,13 +72,7 @@ __Version:__ 0.0
 		- precip_1hr_in
 		- precip_today_in
 		
-###WeatherDataInterpreter
-	    - Input: 
-	        - temp_f
-	        - wind_gust_mph
-	        - precip_today_in 
-	    - Output: 
-		    - Float representing the ratio: Upset/Content
+
 
 ---
 

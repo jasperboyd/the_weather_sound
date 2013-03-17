@@ -196,7 +196,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 218.0, 138.462814, 146.0, 20.0 ],
+					"patching_rect" : [ 428.0, 208.462814, 146.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Light",
@@ -238,7 +238,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 92.404961, 163.0, 33.0 ],
+					"patching_rect" : [ 428.0, 109.404961, 163.0, 33.0 ],
 					"text" : "\tfeelslike_f, wind_gust_mph, precip_today_in "
 				}
 
@@ -253,7 +253,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 49.0, 205.0, 24.0 ],
+					"patching_rect" : [ 428.0, 66.0, 205.0, 24.0 ],
 					"text" : "Input: "
 				}
 
@@ -457,7 +457,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 17.533493, 291.1651, 79.0, 20.0 ],
+					"patching_rect" : [ 17.533493, 481.1651, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Light",
@@ -485,7 +485,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.900818, 92.404961, 235.123962, 33.0 ],
+					"patching_rect" : [ 599.900818, 109.404961, 235.123962, 33.0 ],
 					"text" : "A float (between 0 and 1) representing the ration: Upset/Content"
 				}
 
@@ -500,7 +500,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.900818, 49.0, 210.0, 24.0 ],
+					"patching_rect" : [ 599.900818, 66.0, 210.0, 24.0 ],
 					"text" : "Output: "
 				}
 
@@ -515,7 +515,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.533493, 210.366043, 194.5, 47.0 ],
+					"patching_rect" : [ 17.533493, 400.366028, 194.5, 47.0 ],
 					"text" : "\ttemp_f, feelslike_f, visibility_mi, UV, pressure_in, pressure_trend, dewpoint_f, relative_humidity"
 				}
 
@@ -529,7 +529,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 519.0, 210.366043, 270.0, 20.0 ],
+					"patching_rect" : [ 521.0, 408.399536, 270.0, 20.0 ],
 					"text" : "temp_f, precip_1hr_in, precip_today_in"
 				}
 
@@ -543,7 +543,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 14.849297, 244.0, 29.0 ],
+					"patching_rect" : [ 428.0, 31.849297, 244.0, 29.0 ],
 					"text" : "Weather Data Interpreter"
 				}
 
@@ -617,13 +617,13 @@
 									"patching_rect" : [ 130.0, 266.5, 41.0, 94.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 4,
-											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_shortname" : "live.gain~[6]",
-											"parameter_longname" : "live.gain~[6]"
+											"parameter_longname" : "live.gain~[6]",
+											"parameter_unitstyle" : 4,
+											"parameter_mmax" : 6.0
 										}
 
 									}
@@ -643,13 +643,13 @@
 									"patching_rect" : [ 55.75, 266.5, 34.0, 94.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_unitstyle" : 4,
-											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
 											"parameter_shortname" : "live.gain~[5]",
-											"parameter_longname" : "live.gain~[5]"
+											"parameter_longname" : "live.gain~[5]",
+											"parameter_unitstyle" : 4,
+											"parameter_mmax" : 6.0
 										}
 
 									}
@@ -1039,7 +1039,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 225.0, 301.577911, 79.0, 20.0 ],
+					"patching_rect" : [ 218.0, 491.577911, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Light",
@@ -1413,7 +1413,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 519.0, 291.1651, 85.0, 20.0 ],
+					"patching_rect" : [ 521.0, 489.198608, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Light",
@@ -2040,7 +2040,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 519.0, 163.535889, 241.0, 29.0 ],
+					"patching_rect" : [ 521.0, 361.569397, 241.0, 29.0 ],
 					"text" : "Input Variables\n"
 				}
 
@@ -2054,7 +2054,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.533493, 171.569382, 154.0, 29.0 ],
+					"patching_rect" : [ 17.533493, 361.569397, 154.0, 29.0 ],
 					"text" : "Input Variables\n"
 				}
 
@@ -2068,7 +2068,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 210.366043, 239.0, 20.0 ],
+					"patching_rect" : [ 218.0, 400.366028, 239.0, 20.0 ],
 					"text" : "wind_degrees, wind_mph, wind_gust_mph"
 				}
 
@@ -2082,7 +2082,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 171.569382, 239.0, 29.0 ],
+					"patching_rect" : [ 218.0, 361.569397, 239.0, 29.0 ],
 					"text" : "Input Variables"
 				}
 
@@ -2095,16 +2095,16 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 225.0, 337.035889, 79.0, 291.0 ],
+					"patching_rect" : [ 218.0, 527.035889, 72.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 0,
 							"parameter_shortname" : "live.gain~[1]",
-							"parameter_longname" : "live.gain~[1]"
+							"parameter_longname" : "live.gain~[1]",
+							"parameter_unitstyle" : 4,
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -2121,16 +2121,16 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 17.533493, 337.035889, 57.0, 291.0 ],
+					"patching_rect" : [ 17.533493, 527.035889, 61.0, 104.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 0,
 							"parameter_shortname" : "live.gain~[2]",
-							"parameter_longname" : "live.gain~[2]"
+							"parameter_longname" : "live.gain~[2]",
+							"parameter_unitstyle" : 4,
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -2148,7 +2148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.033493, 257.366028, 161.0, 33.0 ],
+					"patching_rect" : [ 14.033493, 447.366028, 161.0, 33.0 ],
 					"text" : "Base Synth\n"
 				}
 
@@ -2162,7 +2162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 243.440201, 281.0, 33.0 ],
+					"patching_rect" : [ 218.0, 433.440186, 281.0, 33.0 ],
 					"text" : "Wind Synth"
 				}
 
@@ -2176,7 +2176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 519.0, 242.686584, 288.0, 33.0 ],
+					"patching_rect" : [ 521.0, 440.720093, 288.0, 33.0 ],
 					"text" : "Precipitation Synth\n"
 				}
 
@@ -2189,16 +2189,16 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 519.0, 327.035889, 85.0, 301.0 ],
+					"patching_rect" : [ 521.0, 525.069397, 85.0, 98.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ 0.0 ],
 							"parameter_type" : 0,
 							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~"
+							"parameter_longname" : "live.gain~",
+							"parameter_unitstyle" : 4,
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -2250,7 +2250,7 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 545.0, 645.0, 378.5, 645.0 ],
+					"midpoints" : [ 547.0, 645.0, 378.5, 645.0 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -2260,7 +2260,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 528.5, 645.0, 352.5, 645.0 ],
+					"midpoints" : [ 530.5, 645.0, 352.5, 645.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -2270,7 +2270,7 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 36.533493, 645.0, 378.5, 645.0 ],
+					"midpoints" : [ 37.533493, 645.0, 378.5, 645.0 ],
 					"source" : [ "obj-27", 1 ]
 				}
 
@@ -2290,7 +2290,7 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 249.5, 645.0, 378.5, 645.0 ],
+					"midpoints" : [ 240.75, 645.0, 378.5, 645.0 ],
 					"source" : [ "obj-48", 1 ]
 				}
 
@@ -2300,8 +2300,28 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 234.5, 645.0, 352.5, 645.0 ],
+					"midpoints" : [ 227.5, 645.0, 352.5, 645.0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 202.533493, 186.0, 585.0, 186.0, 585.0, 150.0, 564.5, 150.0 ],
+					"source" : [ "obj-56", 13 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 94.533493, 150.0, 501.0, 150.0 ],
+					"source" : [ "obj-56", 5 ]
 				}
 
 			}
@@ -2310,6 +2330,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 40.533493, 150.0, 437.5, 150.0 ],
 					"source" : [ "obj-56", 1 ]
 				}
 
@@ -2352,11 +2373,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-21" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-60::obj-2" : [ "live.gain~[6]", "live.gain~[6]", 0 ],
-			"obj-48" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
 			"obj-27" : [ "live.gain~[2]", "live.gain~[2]", 0 ],
-			"obj-60::obj-1" : [ "live.gain~[5]", "live.gain~[5]", 0 ]
+			"obj-48" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-60::obj-1" : [ "live.gain~[5]", "live.gain~[5]", 0 ],
+			"obj-21" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
