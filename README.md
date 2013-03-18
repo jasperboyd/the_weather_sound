@@ -13,13 +13,11 @@ __Version:__ 0.0
 
 ##todo 
 	- Add a copy of the java external source
-	- Finish Weather Data Interpreter
-	- Begin Building MelodyGenerator
-	- Begin Building ChangeDetect
-	- Implement Inputs
-	    - PrecipSynth
-	    - WindSynth
-	    - BaseSynth
+	- Implement MelodyGenerator
+	- Implement Weather Data Interpreter
+	- Implement BaseSynth
+	- Implement WindSynth
+	- Implement PrecipSynth
 	
 ##Features for Later Versions
     - Zip Code feature
