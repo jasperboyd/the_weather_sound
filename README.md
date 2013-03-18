@@ -15,6 +15,7 @@ __Version:__ 0.0
 	- Add a copy of the java external source
 	- Finish Weather Data Interpreter
 	- Begin Building MelodyGenerator
+	- Begin Building ChangeDetect
 	- Implement Inputs
 	    - PrecipSynth
 	    - WindSynth
@@ -27,6 +28,8 @@ __Version:__ 0.0
 --- 
 
 ##Outline
+
+The following patchers make up the weather sound engine: 
 
 ###GetWeather
     - Input:
@@ -42,9 +45,18 @@ __Version:__ 0.0
 	- Output: 
 	    - Float representing the ratio: Upset/Content
 	    
+###ChangeDetect
+    - Input: 
+        - Fill this in!!!
+    - Output: 
+        - Bang if true
+	    
 ###Melody Generator
     - Input: 
-        -
+        - Mood
+            - Set Key
+        - Bang
+            - From ChangeDetect
     - Output: 
         - Midi Values
         - Velocity
