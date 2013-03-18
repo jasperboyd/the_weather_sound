@@ -5,7 +5,7 @@ the_weather_sound
 
 __Summary:__ A computer music project that converts real time weather data into soundscapes. 
 
-__Techonologies:__ Max/MSP/Jitter, Java, JSON
+__Techonologies:__ [Max/MSP/Jitter](http://cycling74.com/), Java, JSON
 
 __Version:__ 0.0
 
