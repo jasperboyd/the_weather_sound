@@ -12,7 +12,7 @@ __Version:__ 0.0
 ---
 
 ##todo 
-	- Add a copy of the java external source
+    - Debug Data input convert to max-readable
 	- Implement MelodyGenerator
 	- Implement Weather Data Interpreter
 	- Implement BaseSynth
