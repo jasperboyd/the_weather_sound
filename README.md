@@ -3,7 +3,7 @@ the_weather_sound
 
 #####[Jasper Boyd](jasperboyd.com)
 
-__Summary:__ A computer music project that converts real time weather data into soundscapes. 
+__Summary:__ A computer music project that converts real time weather data into evolving soundscapes. 
 
 __Techonologies:__ [Max/MSP/Jitter](http://cycling74.com/), Java, JSON
 
@@ -13,6 +13,8 @@ __Version:__ 0.0
 
 ##todo 
 	- Improve Sounds and Control
+	    -Granular Synthesis
+	- Jitter Implementation
 	
 ##Features for Later Versions
     - Zip Code feature
