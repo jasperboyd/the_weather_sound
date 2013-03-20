@@ -12,7 +12,6 @@ __Version:__ 0.0
 ---
 
 ##todo 
-    - Debug Data input convert to max-readable
 	- Implement MelodyGenerator
 	- Implement Weather Data Interpreter
 	- Implement BaseSynth

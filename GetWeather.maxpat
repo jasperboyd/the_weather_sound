@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 227.0, 317.0, 445.0, 504.0 ],
+		"rect" : [ 944.0, 285.0, 590.0, 511.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -284,8 +284,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 295.0, 34.0, 20.0 ],
-					"text" : "print"
+					"patching_rect" : [ 26.5, 295.0, 102.0, 20.0 ],
+					"text" : "print GetWeather"
 				}
 
 			}
