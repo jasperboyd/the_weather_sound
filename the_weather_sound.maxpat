@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 147.0, 47.0, 917.0, 669.0 ],
+		"rect" : [ 265.0, 54.0, 917.0, 669.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -11923,7 +11923,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Helvetica Light",
@@ -11935,7 +11934,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
 									"patching_rect" : [ 163.0, 251.0, 56.0, 18.0 ],
-									"sig" : 64.0
+									"sig" : 69.0
 								}
 
 							}
@@ -13124,7 +13123,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "float" ],
 									"patching_rect" : [ 49.0, 251.0, 56.0, 18.0 ],
-									"sig" : 40.0
+									"sig" : 45.0
 								}
 
 							}

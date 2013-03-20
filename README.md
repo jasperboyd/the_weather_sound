@@ -13,7 +13,6 @@ __Version:__ 0.0
 
 ##todo 
 	- Improve Sounds and Control
-	    -Create Linear Ramps Between Values
 	
 ##Features for Later Versions
     - Zip Code feature
