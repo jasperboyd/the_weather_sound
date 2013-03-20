@@ -13,7 +13,6 @@ __Version:__ 0.0
 
 ##todo 
 	- Implement MelodyGenerator
-	- Implement Weather Data Interpreter
 	- Implement BaseSynth
 	- Implement WindSynth
 	- Implement PrecipSynth
