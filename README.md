@@ -12,10 +12,8 @@ __Version:__ 0.0
 ---
 
 ##todo 
-	- Implement MelodyGenerator
-	- Implement BaseSynth
-	- Implement WindSynth
-	- Implement PrecipSynth
+	- Improve Sounds and Control
+	    -Create Linear Ramps Between Values
 	
 ##Features for Later Versions
     - Zip Code feature
