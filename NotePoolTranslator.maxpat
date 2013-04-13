@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 625.0, 368.0, 640.0, 480.0 ],
+		"rect" : [ 724.0, 375.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Helvetica Light",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 446.0, 247.0, 150.0, 18.0 ],
+					"text" : "debug\n"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "note output (midi value)",
 					"id" : "obj-44",
@@ -241,8 +255,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 342.0, 309.0, 93.0, 16.0 ],
-					"text" : "3 5"
+					"patching_rect" : [ 345.0, 282.0, 93.0, 16.0 ],
+					"text" : "0 0"
 				}
 
 			}
@@ -656,6 +670,7 @@
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 66.5, 267.0, 266.571411, 267.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
