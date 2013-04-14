@@ -12,6 +12,8 @@ __Version:__ 0.0
 ---
 
 ##todo 
+    - Harmonizer  
+        - Finish Implementation
 	- Add effects to the synth
 	    - Parameter control 
 	- Create the synth sound 
