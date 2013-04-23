@@ -7,20 +7,14 @@ __Summary:__ A computer music project that transforms real time weather data int
 
 __Techonologies:__ [Max/MSP/Jitter](http://cycling74.com/), Java, JSON
 
-__Version:__ 0.0
+__Version:__ 1.0
 
 ---
 
-##Quick idea
-
-Do the effects first and then maybe use a basic synth controled by a piano and turn it into an instrument (definitely more engaging)… 
-
 ##todo 
-    - Harmonizer  
-        - Finish Implementation
-	- Add effects to the synth
-	    - Parameter control 
-	- Create the synth sound 
+
+    - update the propaganda
+
 	
 ##Features for Later Versions
     - Jitter Implementation 
