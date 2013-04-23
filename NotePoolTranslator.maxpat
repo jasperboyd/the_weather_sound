@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 165.0, 640.0, 480.0 ],
+		"rect" : [ 4.0, 44.0, 1276.0, 710.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -180,7 +180,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 244.857117, 143.0, 32.5, 16.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -486,7 +486,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.0, 254.0, 150.0, 30.0 ],
+					"patching_rect" : [ 446.0, 254.0, 150.0, 18.0 ],
 					"text" : "DEBUG\n"
 				}
 
@@ -636,7 +636,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 52.25, 143.0, 32.5, 16.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -706,7 +706,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 282.0, 93.0, 16.0 ],
-					"text" : "0 1"
+					"text" : "0 0"
 				}
 
 			}

@@ -11,6 +11,10 @@ __Version:__ 0.0
 
 ---
 
+##Quick idea
+
+Do the effects first and then maybe use a basic synth controled by a piano and turn it into an instrument (definitely more engaging)… 
+
 ##todo 
     - Harmonizer  
         - Finish Implementation
