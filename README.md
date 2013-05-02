@@ -7,19 +7,19 @@ __Summary:__ A computer music project that transforms real time weather data int
 
 __Techonologies:__ [Max/MSP/Jitter](http://cycling74.com/), Java, JSON
 
-__Version:__ 1.0
+__Version:__ 1.1
 
 ---
 
 ##todo 
-
-    - update the propaganda
+- organize the files
+- install instructions
+- update the propaganda
 
 	
 ##Features for Later Versions
-    - Jitter Implementation 
-    - Zip Code feature
-        - Urban/Suburban/Rural/Wilderness Settings
+- Zip Code feature
+- Urban/Suburban/Rural/Wilderness Settings
     
 --- 
 
@@ -181,5 +181,12 @@ I decided the best way to determine when notes should change is to look at the v
 
 ---
 
+##changelog
+
+Version 1.1
+
+- Visualizer
+
+---
 
 

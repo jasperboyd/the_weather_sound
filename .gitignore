@@ -1,3 +1,5 @@
 *.DS_Store
 *.aif
+*.wav
+*.mp3
 *.reapeaks
