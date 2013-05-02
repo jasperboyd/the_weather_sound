@@ -14,12 +14,19 @@ __Version:__ 1.1
 ##todo 
 - organize the files
 - install instructions
+    - please [email me if you want to install it](jasperboyd@lavabit.com)
 - update the propaganda
+- optimize the patches (too laggy right now)
 
 	
 ##Features for Later Versions
 - Zip Code feature
 - Urban/Suburban/Rural/Wilderness Settings
+- precipitation added
+- Improved visualizer 
+    - better detail 
+    - better texture
+    - responsive color
     
 --- 
 
@@ -74,7 +81,7 @@ The following patchers make up the weather sound engine:
 		- wind_mph
 		- wind_gust_mph 
 	
-###PrecipSynth
+###PrecipSynth (removed)
     - Input: 
 		- temp_f
 		- precip_1hr_in
